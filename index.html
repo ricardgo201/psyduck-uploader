@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>psyduck-uploader</title>
+  <style>
+    body { font: 16px/1.6 system-ui, sans-serif; max-width: 42rem; margin: 3rem auto; padding: 0 1rem; color: #222; }
+    a { color: #0b57d0; }
+    footer { margin-top: 3rem; font-size: .9rem; color: #555; }
+  </style>
+</head>
+<body>
+  <h1>psyduck-uploader</h1>
+  <p>
+    psyduck-uploader is a small personal tool that copies photos and videos from
+    camera memory cards to the owner's own Google Drive account, then checks every
+    file by checksum so the card can be safely formatted.
+  </p>
+
+  <h2>What it does</h2>
+  <ul>
+    <li>Runs on the owner's own computer using the open-source <a href="https://rclone.org">rclone</a> program.</li>
+    <li>Signs in to Google Drive with Google's standard sign-in, using the <code>drive.file</code> permission.</li>
+    <li>That permission lets the tool see and manage only the files it creates itself, not the rest of the Drive.</li>
+    <li>Does not delete anything from the memory card.</li>
+  </ul>
+
+  <h2>Who it is for</h2>
+  <p>
+    This app is not offered to the public. It is used by its developer for personal
+    backups. There is nothing to download or sign up for on this site.
+  </p>
+
+  <h2>Privacy</h2>
+  <p>Read the <a href="privacy/">privacy policy</a>.</p>
+
+  <footer>
+    Contact: <a href="mailto:contact@rkdlabs.dev">contact@rkdlabs.dev</a>
+  </footer>
+</body>
+</html>
