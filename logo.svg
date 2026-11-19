@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <rect width="120" height="120" rx="26" fill="#1f6feb"/>
+  <!-- cloud -->
+  <path d="M34 78c-8 0-14-6-14-13s6-13 13-13c2-9 10-15 19-15 10 0 18 6 20 15 8 0 14 5 14 12 0 8-6 14-14 14z" fill="#e8f1ff"/>
+  <!-- duck body -->
+  <ellipse cx="60" cy="72" rx="26" ry="18" fill="#ffd43b"/>
+  <!-- duck head -->
+  <circle cx="72" cy="48" r="17" fill="#ffd43b"/>
+  <!-- beak -->
+  <path d="M86 50c9-1 14 2 14 5s-5 6-14 5z" fill="#ff9f1c"/>
+  <!-- eye -->
+  <circle cx="76" cy="44" r="3" fill="#1b1b1b"/>
+  <!-- wing -->
+  <path d="M44 70c6-8 20-8 26 0-6 8-20 8-26 0z" fill="#f4b400"/>
+  <!-- upload arrow -->
+  <path d="M30 34l8-10 8 10h-5v11h-6V34z" fill="#ffffff"/>
+</svg>
